@@ -43,3 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+end
+
